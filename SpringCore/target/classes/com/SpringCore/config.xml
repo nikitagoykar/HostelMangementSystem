@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+                    http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context
+                     http://www.springframework.org/schema/context/spring-context.xsd">
+                    <!--  
+                     <bean class="com.SpringCore.Student"  id="student">
+                     
+                     <property name="studentId" value="1"/>
+                     <property name="studentName" value="Aruna"/>
+                     <property name="studentEmail" value="aruna@gmao"/>
+                     
+                     
+                     </bean>
+ -->
+ 
+ <!-- <bean class="com.SpringCore.Employee" id="employee">
+ 
+ <property name="empId">
+ <set>
+ <value>101</value>
+ <value>102</value>
+ <value>103</value>
+ <value>104</value>
+ </set>
+ </property>
+ 
+ <property name="empName">
+ <list>
+ <value>Aruna</value>
+ <value>Archana</value>
+ <value>Barathi</value>
+ <value>Nikita</value>
+ </list>
+ </property>
+ 
+ <property name="empDetails">
+ <map>
+ <entry key="1" value="computer science"></entry>
+ <entry key="2" value="computer Application"></entry>
+ <entry key="3" value="computer Master"></entry>
+ <entry key="4" value="data science"></entry>
+ </map>
+
+ </property>
+ </bean>
+  -->
+ 
+ <!-- <bean class="com.SpringCore.Player"  id="player">
+ <constructor-arg value="101"/>
+ <constructor-arg value="Aruna"/>
+ <constructor-arg value="cricket"/>
+ 
+ </bean> -->
+ 
+   <bean class="com.SpringCore.Product"  id="product">
+                     
+                     <property name="productId" value="1"/>
+                     <property name="productName" value="soap"/>
+                     <property name="price" value="50"/>
+                     
+                     
+                     </bean>
+ 
+</beans>
